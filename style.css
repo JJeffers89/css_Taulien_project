@@ -1,0 +1,104 @@
+body{
+    margin: 20px;
+    background-color: black;
+    color: white;
+}
+#body{
+    text-align: center;
+    margin: 100px 0;
+}
+p{
+    font-family: 'roboto';
+    font-size: 30px;
+}
+blockquote{
+    font-family: 'roboto';
+    font-size: 22px;
+    background-color: gainsboro;
+    color: black;
+    border-radius: 25px;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+}
+#brand{
+    /* position: relative; */
+    /* top: -5px; */
+    /* right: 66px; */
+    font-size: 40px;
+    text-align: center;
+    margin: 50px;
+    text-decoration: none;
+    color: black;
+    background-color: #fff;
+    margin-bottom: 30px;
+    border: 2px solid grey;
+}
+#brand:hover{
+    color: #ccc;
+}
+#nav-container{
+    display: inline-block;
+    align-items: center;
+    height: 10px;
+    width: calc(100% - 40px);
+    padding: 5px;
+   
+#nav-title{
+    padding: 5px;
+    margin-top: 10px;
+}
+.nav{
+    background-color: white;
+    border: 2px solid #ccc;
+    padding: 15px;
+    width: calc(100% - 20px);
+    border-bottom: 2px solid red;
+}
+}
+li{
+    display: inline-block;
+    margin: 0 50px;
+    padding-left: 10px;
+    
+}
+
+ul{
+    list-style-type: none;
+      
+}
+
+a{
+    
+    margin-right: 50px;
+    padding: 5px;
+    text-decoration: none;
+    
+}
+a:hover{
+    color: grey;
+    
+}
+a:not(#brand){
+    font-size: 1.2em;
+}
+.row{
+    border: 2px solid grey;
+    display: inline-block;
+    width: 95%;
+    padding: 10px;
+}
+.col1, .col2, .col3{
+    display: inline-block;
+    width: 30%;
+    height: 150px;
+    border: 2px solid grey;
+    padding: 5px;
+    margin: 10px;
+}
+
+
+ .full-col{
+    border: 2px solid grey;
+    height: 300px;
+ }
